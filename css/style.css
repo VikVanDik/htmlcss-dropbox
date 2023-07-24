@@ -38,7 +38,7 @@ body {
   background-color: #B4D0E7;
 }
 .blue {
-  background-color: #0061FF;
+  background-color: #0062ff;
 }
 .green-design {
   background-color: #A2D39B;
@@ -71,12 +71,12 @@ body {
 /* container  */
 
 .container-large {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
 }
 
 .container-fit {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -172,8 +172,8 @@ main .light-blue .container-large .jumbo-left a{
 }
 
 .fa-arrow-down {
-  font-size: 2rem;
-  padding-top: 30px;
+  font-size: 3rem;
+  padding-top: 60px;
 }
 
 .jumbo-right {
@@ -181,3 +181,88 @@ main .light-blue .container-large .jumbo-left a{
   display: inline-block;
 }
 
+.pad-up {
+  margin-top: 100px;
+}
+
+main section .pad-up h2 {
+  padding-bottom: 20px;
+}
+
+main section .pad-up span {
+  font-size: .7rem;
+  padding-right: 30px;
+}
+
+section .pad-up {
+  margin-bottom: 50px;
+}
+
+.cards {
+  justify-content: space-between
+}
+
+.card {
+  width: 30%;
+  border: 1px solid lightgray;
+}
+
+.card-head {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+main section .card ul li {
+  list-style: none;
+}
+
+main section .card .info {
+  width: 80%;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+main section .card .info h4 {
+  padding-bottom: 10px;
+}
+
+main section .card .info .price {
+  font-size: .7rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+main section .card .info .time {
+  font-size: .7rem;
+  padding-bottom: 40px;
+  color: gray;
+}
+
+main section .card .info ul li {
+  font-size: .7rem;
+  padding-bottom: 15px;
+}
+
+main section .card .button button {
+  width: 80%;
+  font-size: .7rem;
+}
+
+main section .card .button {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 100px;
+}
