@@ -25,6 +25,7 @@ body {
 .btn {
   padding: 5px 15px;
   border: 1px solid #0061FF;
+  color: white;
 }
 
 .btn:active {
@@ -70,12 +71,12 @@ body {
 /* container  */
 
 .container-large {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
 }
 
 .container-fit {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -86,6 +87,8 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 999;
+  background-color: white;
 }
 /* FIXME: righetta sotto non centrata con il testo */
 .Logo {
@@ -110,6 +113,7 @@ header ul li a{
   text-decoration: none;
   font-size: .8rem;
   color: black;
+  font-weight: 600;
 }
 
 header .left-head ul li {
@@ -128,4 +132,52 @@ header .right-head ul :last-child {
   margin-right: 20px;
 }
 
+/* Main  */
+
+main {
+  padding-top: 70px;
+}
+
+main .light-blue .container-large h1 {
+  font-size: 3rem;
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+.jumbo-left {
+  width: 35%;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.Proposta {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+main .light-blue .container-large .jumbo-left p {
+font-size: .7rem;
+font-weight: 600;
+}
+
+main .light-blue .container-large .jumbo-left button {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: .7rem;
+}
+
+main .light-blue .container-large .jumbo-left a{
+  color: black;
+}
+
+.fa-arrow-down {
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+.jumbo-right {
+  width: 65%;
+  display: inline-block;
+}
 
