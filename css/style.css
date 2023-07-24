@@ -242,19 +242,19 @@ main section .card .info .time {
 }
 
 main section .card .info ul li {
-  font-size: .7rem;
+  font-size: .6rem;
   padding-bottom: 15px;
   
 }
 
 main section .card .button button {
-  width: 80%;
-  font-size: .7rem;
+  width: 85%;
+  font-size: .6rem;
 }
 
 main section .card .button {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 main section .card span {
