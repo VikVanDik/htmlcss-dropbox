@@ -298,6 +298,7 @@ main section .card .info li {
 
 /* Sezione cards finita */
  
+/* Sezione partner  */
 .Partner {
   width: 60%;
 }
@@ -327,8 +328,32 @@ main section .card .info li {
   background-color: lightgrey;
 }
 
+/* sezione partner finita  */
 
 
+/* sezione features  */
+.features {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.features .flex .feature {
+  width: 30%;
+}
+
+
+
+.features .flex {
+  padding-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-feature {
+  width: 100%;
+  background-position: cover;
+  padding-top: 20px;
+}
 
 
 footer {
