@@ -249,7 +249,7 @@ main section .card .info ul li {
 
 main section .card .button button {
   width: 85%;
-  font-size: .6rem;
+  font-size: .7rem;
 }
 
 main section .card .button {
@@ -265,9 +265,35 @@ main section .card .info li {
   padding-bottom: 15px;
 }
 
+.horizontal {
+  padding-top: 40px;
+}
 
+.horizontal .card {
+  width: 100%;
+}
 
+.horizontal .card .info {
+  width: 100%;
+  justify-content: space-between;
+}
 
+.horizontal .card .info .button a {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.horizontal .card .info div {
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.horizontal .card .info div .contatta {
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+ 
 
 
 
