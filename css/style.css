@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Color Palette  */
+
+.light-blue {
+  background-color: #B4D0E7;
+}
+.blue {
+  background-color: #0061FF;
+}
+.green-design {
+  background-color: #A2D39B;
+}
+.granate-asu {
+  background-color: #61082B;
+}
+.blue-florida {
+  
+}
