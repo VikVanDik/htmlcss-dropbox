@@ -21,10 +21,15 @@ body {
   font-size: .7rem;
 }
 
+html {
+  scroll-behavior:smooth
+}
+
 .debug {
   border: 1px solid black;
   background-color: red;
 }
+
 .debug2 {
   border: 1px solid black;
   background-color: blue;
@@ -36,7 +41,7 @@ body {
   color: white;
 }
 
-.btn:active {
+.btn:hover {
   background-color: #5697ff;
 }
 
@@ -79,11 +84,9 @@ body {
 .violet {
   background-color: #61082B;
 }
-
 .grey-center {
   background-color: #F5F5F5;
 }
-
 .grey-font {
   color: gray;
 }
@@ -148,6 +151,10 @@ header .right-head ul :last-child {
   cursor: auto;
 }
 
+header .right-head ul :last-child a {
+  cursor: pointer;
+}
+
 .invia {
   margin-right: 20px;
 }
@@ -165,7 +172,7 @@ main .light-blue .container-large h1 {
 }
 
 .jumbo-left {
-  width: 35%;
+  width: 30%;
   display: inline-block;
   padding-top: 50px;
 }
@@ -173,30 +180,34 @@ main .light-blue .container-large h1 {
 .Proposta {
   width: 100%;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 main .light-blue .container-large .jumbo-left p {
 font-weight: 600;
+padding-bottom: 20px;
 }
 
-main .light-blue .container-large .jumbo-left button {
-  margin: 20px 0;
-  padding: 10px;
- 
+main .light-blue .container-large .jumbo-left a { 
+  text-decoration: none;
+  color: white;
 }
 
-main .light-blue .container-large .jumbo-left a{
+.null {
+  padding-top: 30px;
+}
+
+main .light-blue .container-large .jumbo-left .fa-arrow-down{
   color: black;
 }
 
 .fa-arrow-down {
   font-size: 3rem;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .jumbo-right {
-  width: 65%;
+  width: 70%;
   display: inline-block;
 }
 
@@ -265,9 +276,10 @@ main section .card .info ul li {
   
 }
 
-main section .card .button button {
+main section .card .button a {
   width: 85%;
   font-size: .7rem;
+  text-decoration: none;
 }
 
 main section .card .button {
@@ -338,6 +350,10 @@ main section .card .info li {
   color: black;
   text-decoration: none;
   border: 1px solid black;
+}
+
+.Hellosign div a:hover {
+  background-color: lightgray;
 }
 
 .Hellosign div a:active {
