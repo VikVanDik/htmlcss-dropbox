@@ -328,36 +328,8 @@ main section .card .info li {
   padding-bottom: 40px;
 }
 
-.green-design:active {
-  border: 10px solid #bfecb9;
-}
-
-.granate-asu:active {
-  border: 10px solid #a02858;
-}
-
-.blue-florida:active {
-  border: 10px solid #49aed6;
-}
-
-.red-topps:active {
-  border: 10px solid #fa5656;
-}
-
-.red-wbr:active {
-  border: 10px solid #e7314c;
-}
-
-.blue-hearst:active {
-  border: 10px solid #ccd7e0;
-}
-
-.blue-lonely:active {
-  border: 10px solid #364ca7;
-}
-
-.yellow-clear:active {
-  border: 10px solid #ffe46e;
+.customer:active {
+  border: 10px solid rgba(0, 0, 0, .2);
 }
 /* Sezione cards finita */
  
