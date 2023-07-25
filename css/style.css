@@ -42,6 +42,10 @@ body {
 
 /* Color Palette  */
 
+.black {
+  background-color: black;
+}
+
 .light-blue {
   background-color: #B4D0E7;
 }
@@ -78,6 +82,10 @@ body {
 
 .grey-center {
   background-color: #F5F5F5;
+}
+
+.grey-font {
+  color: gray;
 }
 
 /* container  */
@@ -414,7 +422,7 @@ main section .card .info li {
 }
 
 .cust-bottom .cust-center {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .cust-bottom .cust-center .quote {
@@ -486,7 +494,54 @@ main section .card .info li {
   font-weight: 600;
 }
 
+/* Sezione FAQ completata */
 
 footer {
-  height: 100px;
+  color: white;
+  font-weight: 700;
+}
+
+footer .footer-top ul {
+  list-style-type: none;
+  font-size: .7rem;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+footer .footer-top {
+  justify-content: space-between;
+}
+
+footer .footer-top ul li {
+  padding-bottom: 10px;
+}
+
+footer .footer-top ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-top ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-top div {
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+footer .footer-bottom .language {
+  padding-left: 5px;
+}
+
+footer .footer-bottom p {
+  padding-bottom: 40px;
+}
+
+footer .footer-bottom .fa-caret-up {
+  font-size: .6rem;
+}
+
+footer .footer-bottom {
+  padding-bottom: 30px;
 }
