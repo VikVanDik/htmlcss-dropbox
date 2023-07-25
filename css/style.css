@@ -25,6 +25,10 @@ body {
   border: 1px solid black;
   background-color: red;
 }
+.debug2 {
+  border: 1px solid black;
+  background-color: blue;
+}
 
 .btn {
   padding: 5px 15px;
@@ -356,6 +360,26 @@ main section .card .info li {
 }
 
 /* Sezione features completata  */
+
+/* Sezione clienti  */
+
+.cust-top h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.cust-bottom {
+  padding-top: 60px;
+}
+
+.cust-bottom .cust-center,.cust-left,.cust-right {
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+}
+
+.cust-bottom .cust-left .customer {
+  height: ;
+}
 
 footer {
   height: 100px;
