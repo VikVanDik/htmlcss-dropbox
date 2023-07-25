@@ -113,6 +113,7 @@ header {
   z-index: 999;
   background-color: white;
   min-width: 800px;
+  box-shadow: 0 0 5px gray;
 }
 
 .Logo {
@@ -251,6 +252,7 @@ section .pad-up {
 
 main section .card ul li {
   list-style: none;
+  margin-left: -25px;
 }
 
 main section .card .info {
@@ -276,7 +278,7 @@ main section .card .info .time {
 main section .card .info .fa-ul li {
   font-size: .6rem;
   padding-bottom: 15px;
-  margin-left: -25px;
+  
   }
 
 main section .card .button a {
