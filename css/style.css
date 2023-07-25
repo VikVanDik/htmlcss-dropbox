@@ -76,6 +76,10 @@ body {
   background-color: #61082B;
 }
 
+.grey-center {
+  background-color: #F5F5F5;
+}
+
 /* container  */
 
 .container-large {
@@ -377,9 +381,111 @@ main section .card .info li {
   height: calc(100vw / 3);
 }
 
-.cust-bottom .cust-left .customer {
-  height: ;
+.cust-bottom .cust-left,.cust-right {
+  flex-wrap: wrap;
 }
+
+.cust-bottom .customer {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cust-bottom .cust-left img {
+  width: 100px;
+  filter: invert(100%) sepia(34%) saturate(837%) hue-rotate(197deg) brightness(108%) contrast(101%);
+}
+.cust-bottom .cust-right img {
+  width: 100px;
+  filter: invert(100%) sepia(34%) saturate(837%) hue-rotate(197deg) brightness(108%) contrast(101%);
+}
+
+.designit {
+  width: 200px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.cust-bottom .cust-center .line {
+  padding-left: 30px;
+  color: lightgray;
+  padding-top: 10px;
+}
+
+.cust-bottom .cust-center {
+  overflow-y: scroll;
+}
+
+.cust-bottom .cust-center .quote {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+}
+
+.name{
+  padding-left: 30px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+/* Sezione client completata */
+
+/* Sezione prova gratuita  */
+
+.free-trial {
+  height: 200px;
+  align-items: center;
+}
+
+.free-trial div a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: none;
+  height: 28px;
+}
+
+.free-trial div {
+  justify-content: space-between;
+}
+
+.free-trial div h2 {
+  color: #61082B;
+}
+/* Sezione prova gratuita completata  */
+
+/* Sezione FAQ */
+
+.FAQ {
+  padding-bottom: 50px;
+}
+
+.FAQ .container-fit h2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.FAQ .container-fit .border {
+  border-bottom: 1px solid lightgrey;
+}
+
+.FAQ .container-fit div p {
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.FAQ .container-fit .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FAQ .container-fit .flex i {
+  font-size: .6rem;
+  font-weight: 600;
+}
+
 
 footer {
   height: 100px;
