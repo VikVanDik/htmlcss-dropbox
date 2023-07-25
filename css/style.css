@@ -232,6 +232,7 @@ section .pad-up {
 
 .cards {
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .card {
@@ -270,21 +271,21 @@ main section .card .info .time {
   color: gray;
 }
 
-main section .card .info ul li {
+main section .card .info .fa-ul li {
   font-size: .6rem;
   padding-bottom: 15px;
-  
-}
+  margin-left: -25px;
+  }
 
 main section .card .button a {
   width: 85%;
+  display: inline-block;
   font-size: .7rem;
   text-decoration: none;
 }
 
 main section .card .button {
   text-align: center;
-  padding-top: 0px;
 }
 
 main section .card span {
@@ -311,6 +312,7 @@ main section .card .info li {
 .horizontal .card .info .button a {
   cursor: pointer;
   margin-right: 20px;
+  width: 90%;
 }
 
 .horizontal .card .info div {
@@ -371,9 +373,8 @@ main section .card .info li {
 
 .features .flex .feature {
   width: 30%;
+  padding-bottom: 20px;
 }
-
-
 
 .features .flex {
   padding-top: 30px;
@@ -389,7 +390,7 @@ main section .card .info li {
 
 /* Sezione features completata  */
 
-/* Sezione clienti  */
+/* Sezione customers  */
 
 .cust-top h2 {
   padding-top: 80px;
@@ -454,7 +455,7 @@ main section .card .info li {
   font-weight: 600;
 }
 
-/* Sezione client completata */
+/* Sezione customers completata */
 
 /* Sezione prova gratuita  */
 
