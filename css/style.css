@@ -112,6 +112,7 @@ header {
   width: 100%;
   z-index: 999;
   background-color: white;
+  min-width: 800px;
 }
 /* FIXME: righetta sotto non centrata con il testo */
 .Logo {
@@ -126,6 +127,7 @@ header ul li {
   line-height: 70px;
   cursor: pointer;
   justify-content: center;
+  text-align: center;
 }
 
 header ul .BB:hover {
@@ -140,11 +142,11 @@ header ul li a{
 }
 
 header .left-head ul li {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 header .right-head ul li {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 header .right-head ul :last-child {
@@ -503,6 +505,10 @@ main section .card .info li {
   height: 28px;
 }
 
+.free-trial div a:hover {
+  background-color: lightgrey;
+}
+
 .free-trial div {
   justify-content: space-between;
 }
@@ -537,9 +543,27 @@ main section .card .info li {
   justify-content: space-between;
 }
 
-.FAQ .container-fit .flex i {
+.FAQ .container-fit div i {
   font-size: .6rem;
   font-weight: 600;
+}
+
+.difference {
+  display: inline-block;
+  margin-right: 235px;
+}
+
+.disappear {
+  padding-bottom: 20px;
+  display: none;
+}
+
+.FAQ .container-fit div:hover + .disappear {
+  display: block;
+}
+
+.FAQ .container-fit div:hover i {
+  rotate: 180deg;
 }
 
 /* Sezione FAQ completata */
