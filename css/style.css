@@ -37,7 +37,7 @@ html {
 
 .btn {
   padding: 5px 15px;
-  border: 1px solid #0061FF;
+  border: none;
   color: white;
 }
 
@@ -329,6 +329,13 @@ main section .card .info li {
   font-weight: 700;
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+.card:hover {
+  scale: 1.05;
+  box-shadow: 0 0 2px gray;
+  transition: 1s;
+  border-radius: 10px;
 }
 
 /* Sezione cards finita */
