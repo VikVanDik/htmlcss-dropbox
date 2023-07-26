@@ -236,7 +236,7 @@ section .pad-up {
 
 .cards {
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .card {
